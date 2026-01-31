@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets\css\navbar.css">
+	<title> simple html document </title>
+
+
+	<ul>		
+		<li><a class="active" href="login.html">Sign up</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="rules.html">Rules</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="index.html">Home</a></li>
+	</ul>
+
+	<style>
+		span{
+			margin-top: 50px;
+			position: relative;
+			font-family: "Lato", sans-serif;
+			top: 20px;
+			color: white;
+			display: inline-block;
+			font-size: 5rem;
+			text-shadow: 0 1px 0  #b7b7b7, 0 2px 0  #b7b7b7, 0 3px 0  #b7b7b7, 0 4px 0  #b7b7b7, 0 5px 0  #b7b7b7, 0 6px 0  #b7b7b7, 0 7px 0  #b7b7b7, 0 8px 0  #b7b7b7, 0 9px 0  #b7b7b7, 0 10px 10px  #b7b7b7  rgba(0,0,0.5);
+			animation: bounce 0.4s ease infinite alternate;
+		}
+
+		h1 span:nth-child(2) {
+			animation-delay: 0.1s;
+		}
+
+		h1 span:nth-child(3) {
+			animation-delay: 0.2s;
+		}
+
+		h1 span:nth-child(4) {
+			animation-delay: 0.3s;
+		}
+
+		h1 span:nth-child(5) {
+			animation-delay: 0.4s;
+		}
+
+		h1 span:nth-child(6) {
+			animation-delay: 0.5s;
+		}
+
+		h1 span:nth-child(7) {
+			animation-delay: 0.6s;
+		}
+		h1 span:nth-child(8) {
+			animation-delay: 0.7s;
+		}
+		h1 span:nth-child(9) {
+			animation-delay: 0.8s;
+		}
+
+		h1 span:nth-child(10) {
+			animation-delay: 0.9s;
+		}
+
+		@keyframes bounce {
+			100% {
+				top: -20px;
+				text-shadow:  0 1px 0  #ccc, 0 2px 0  #ccc, 0 3px 0  #ccc, 0 4px 0  #ccc, 0 5px 0  #ccc, 0 6px 0  #ccc, 0 7px 0  #ccc, 0 8px 0  #ccc, 0 9px 0  #ccc, 0 10px 0  #ccc, 0 60px 30px rgba(0,0,0,0.3);
+			}
+		}
+		
+		img {
+			float: left;
+			clip-path: circle(40%);
+			shape-outside: circle(45%);
+		}
+
+		div {
+			background-color: white;
+			width: 800px;
+			text-align: center;
+			padding: 10px;
+			display: flex;
+			flex-direction: row;
+			margin: 100px;
+		}
+		
+		.right-div {
+			background-color: red;
+			float: right;
+			width: 800px;
+			text-align: center;
+			padding: 10px;
+			display: flex;
+			flex-direction: row;
+			margin: 100px;
+			margin-top: 10px;
+		}
+	</style>
+
+
+
+</head>
+<body>
+
+	<h1>
+		<span>V</span>
+		<span>0</span>
+		<span>L</span>
+		<span>L</span>
+		<span>E</span>
+		<span>Y</span>
+		<span>B</span>
+		<span>A</span>
+		<span>L</span>
+		<span>L</span>
+	</h1>
+	
+	
+	<div>
+		<img src="assets/images/history1.webp" width="300" height="300">
+		<p>Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, tablet computers, smartwatches, desktops/laptops, or another type of compatible computer. Text messages may be sent over a cellular network or may also be sent via satellite or Internet connection.</p>
+	</div>
+	<div class="right-div">
+		<img src="assets/images/history2.jpg" width="300" height="300" >
+		<p>Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, tablet computers, smartwatches, desktops/laptops, or another type of compatible computer. Text messages may be sent over a cellular network or may also be sent via satellite or Internet connection.</p>
+	</div>
+	<div>
+		<img src="assets/images/history3.webp" width="300" height="300">
+		<p>Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, tablet computers, smartwatches, desktops/laptops, or another type of compatible computer. Text messages may be sent over a cellular network or may also be sent via satellite or Internet connection.</p>
+	</div>
+	<div class="right-div">
+		<img src="assets/images/history4.jpeg" width="300" height="300" >
+		<p>Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile phones, tablet computers, smartwatches, desktops/laptops, or another type of compatible computer. Text messages may be sent over a cellular network or may also be sent via satellite or Internet connection.</p>
+	</div>
+</html>
